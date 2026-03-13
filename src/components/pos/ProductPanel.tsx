@@ -1,6 +1,6 @@
 import { useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Plus, Minus, ScanBarcode, Filter, ArrowUpDown } from "lucide-react";
+import { Plus, Minus, ScanBarcode, Filter, ArrowUpDown, Search } from "lucide-react";
 import { products, categories, type Product } from "@/data/products";
 import { usePOSStore } from "@/store/pos-store";
 import { toast } from "sonner";
